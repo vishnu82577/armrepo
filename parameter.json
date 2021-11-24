@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "name": {
+            "value": "armpip"
+        },
+        "publicIPAllocationMethod": {
+            "value": "Static"
+        },
+        "idleTimeoutInMinutes": {
+            "value": 4
+        },
+        "publicIpAddressVersion": {
+            "value": "IPv4"
+        },
+        "tier": {
+            "value": "Regional"
+        },
+        "zones": {
+            "value": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "domainNameLabel": {
+            "value": "armpiop000we8r9"
+        }
+    }
+}
